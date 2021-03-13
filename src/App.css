@@ -19,7 +19,7 @@ a,
 td,
 th,
 label {
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     color: #ffffff;
 }
 
@@ -36,8 +36,8 @@ label {
 
 .buttonSmall {
     background-color: #df00ff;
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     text-align: center;
     margin: auto;
     border-radius: 50%;

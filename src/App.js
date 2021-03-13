@@ -41,7 +41,7 @@ function App() {
         <div className="container">
             <h1 className="title">Random Recipe Generator</h1>
             <div onClick={InitialGeneratedRecipe} className="buttonBig" id="BigButton">
-                <h2>Random Recipe</h2>
+                <h2>Click Here</h2>
             </div>
             <h3 id="RecipeName"></h3>
             <p id="RecipeLink"></p>
