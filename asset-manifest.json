@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/RecipeGenerator/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/RecipeGenerator/static/js/main.d98d49fa.chunk.js",
-    "main.js.map": "/RecipeGenerator/static/js/main.d98d49fa.chunk.js.map",
-    "runtime-main.js": "/RecipeGenerator/static/js/runtime-main.faf5bd1c.js",
-    "runtime-main.js.map": "/RecipeGenerator/static/js/runtime-main.faf5bd1c.js.map",
-    "static/js/2.4d18ca66.chunk.js": "/RecipeGenerator/static/js/2.4d18ca66.chunk.js",
-    "static/js/2.4d18ca66.chunk.js.map": "/RecipeGenerator/static/js/2.4d18ca66.chunk.js.map",
-    "static/js/3.eb63fb96.chunk.js": "/RecipeGenerator/static/js/3.eb63fb96.chunk.js",
-    "static/js/3.eb63fb96.chunk.js.map": "/RecipeGenerator/static/js/3.eb63fb96.chunk.js.map",
+    "main.css": "/RecipeGenerator/static/css/main.734fcdb9.chunk.css",
+    "main.js": "/RecipeGenerator/static/js/main.83385dc8.chunk.js",
+    "main.js.map": "/RecipeGenerator/static/js/main.83385dc8.chunk.js.map",
+    "runtime-main.js": "/RecipeGenerator/static/js/runtime-main.7dc216be.js",
+    "runtime-main.js.map": "/RecipeGenerator/static/js/runtime-main.7dc216be.js.map",
+    "static/js/2.c42ebc41.chunk.js": "/RecipeGenerator/static/js/2.c42ebc41.chunk.js",
+    "static/js/2.c42ebc41.chunk.js.map": "/RecipeGenerator/static/js/2.c42ebc41.chunk.js.map",
+    "static/js/3.c7ed01e4.chunk.js": "/RecipeGenerator/static/js/3.c7ed01e4.chunk.js",
+    "static/js/3.c7ed01e4.chunk.js.map": "/RecipeGenerator/static/js/3.c7ed01e4.chunk.js.map",
     "index.html": "/RecipeGenerator/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/RecipeGenerator/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.4d18ca66.chunk.js.LICENSE.txt": "/RecipeGenerator/static/js/2.4d18ca66.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/RecipeGenerator/static/media/logo.6ce24c58.svg"
+    "static/css/main.734fcdb9.chunk.css.map": "/RecipeGenerator/static/css/main.734fcdb9.chunk.css.map",
+    "static/js/2.c42ebc41.chunk.js.LICENSE.txt": "/RecipeGenerator/static/js/2.c42ebc41.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.faf5bd1c.js",
-    "static/js/2.4d18ca66.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.d98d49fa.chunk.js"
+    "static/js/runtime-main.7dc216be.js",
+    "static/js/2.c42ebc41.chunk.js",
+    "static/css/main.734fcdb9.chunk.css",
+    "static/js/main.83385dc8.chunk.js"
   ]
 }
