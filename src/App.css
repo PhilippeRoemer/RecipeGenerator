@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #4cc2c5;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+td,
+th,
+label {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+    font-family: "Pacifico", cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.recipeImage {
+    height: 350px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonSmall {
+    background-color: #df00ff;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+}
+
+.buttonSmall:hover {
+    cursor: pointer;
+    background-color: #ba00d6;
+}
+
+.buttonBig {
+    background-color: #df00ff;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+}
+
+.buttonBig:hover {
+    cursor: pointer;
+    background-color: #ba00d6;
 }
