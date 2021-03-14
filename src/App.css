@@ -23,15 +23,45 @@ label {
     color: #ffffff;
 }
 
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.header {
+    /* background-color: black; */
+}
+
+.main {
+}
+
+.footer {
+    /* position: absolute; */
+    /* bottom: 5%; */
+    /* width: 100%; */
+}
+
 .title {
     font-family: "Pacifico", cursive;
+    font-size: 2em;
+    padding: 1%;
+}
+.recipeName {
+    padding-top: 30px;
+}
+.recipeLink {
+    padding: 15px;
 }
 
 .recipeImage {
-    height: 350px;
+    /* height: 350px; */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
     border-style: solid;
     border-color: #ffffff;
     border-radius: 5%;
+    margin-bottom: 15px;
 }
 
 .buttonSmall {

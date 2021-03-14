@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Tabletop from "tabletop";
+import FadeIn from "react-fade-in";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
             .catch((err) => console.warn(err));
     }, []);
 
+    window.onload = function () {
+        document.getElementById("nextButton").style.display = "none";
+    };
+
     function InitialGeneratedRecipe() {
         const Recipe = data;
         const RandomRecipe = Recipe[Math.floor(Math.random() * Recipe.length)];
@@ -21,7 +26,7 @@ function App() {
         document.getElementById("RecipeLink").innerHTML = "<a href='" + RandomRecipe.Link + "' target='_blank';>Recipe Link</a>";
         document.getElementById("RecipeImage").innerHTML = "<img src='" + RandomRecipe.Image + "' class='recipeImage'/>";
         document.getElementById("BigButton").style.display = "none";
-        document.getElementById("test").style.display = "flex";
+        document.getElementById("nextButton").style.display = "flex";
     }
 
     function GenerateRecipe() {
@@ -32,22 +37,25 @@ function App() {
         document.getElementById("RecipeImage").innerHTML = "<img src='" + RandomRecipe.Image + "' class='recipeImage'/>";
     }
 
-    window.onload = function () {
-        console.log("testing");
-        document.getElementById("test").style.display = "none";
-    };
-
     return (
         <div className="container">
-            <h1 className="title">Random Recipe Generator</h1>
-            <div onClick={InitialGeneratedRecipe} className="buttonBig" id="BigButton">
-                <h2>Click Here</h2>
+            <div className="header">
+                <h1 className="title">Random Recipe Generator</h1>
             </div>
-            <h3 id="RecipeName"></h3>
-            <p id="RecipeLink"></p>
-            <div id="RecipeImage"></div>
-            <div id="test" onClick={GenerateRecipe} className="buttonSmall">
-                <h3>Next</h3>
+            <div className="main">
+                <FadeIn>
+                    <div onClick={InitialGeneratedRecipe} className="buttonBig" id="BigButton">
+                        <h2>Click Here</h2>
+                    </div>
+                </FadeIn>
+                <h3 id="RecipeName" className="recipeName"></h3>
+                <p id="RecipeLink" className="recipeLink"></p>
+                <div id="RecipeImage"></div>
+            </div>
+            <div className="footer">
+                <div id="nextButton" onClick={GenerateRecipe} className="buttonSmall">
+                    <h3>Next</h3>
+                </div>
             </div>
         </div>
     );
