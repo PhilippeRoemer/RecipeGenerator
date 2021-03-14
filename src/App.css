@@ -79,6 +79,7 @@ label {
     box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
     -webkit-box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
     -moz-box-shadow: -1px 1px 54px 4px rgba(255, 255, 255, 0.75);
+    margin-top: 35%;
 }
 
 .buttonSmall:hover {
