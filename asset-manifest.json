@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RecipeGenerator/static/css/main.5fb78214.chunk.css",
+    "main.css": "/RecipeGenerator/static/css/main.dc3b7ac2.chunk.css",
     "main.js": "/RecipeGenerator/static/js/main.1b0ce493.chunk.js",
     "main.js.map": "/RecipeGenerator/static/js/main.1b0ce493.chunk.js.map",
     "runtime-main.js": "/RecipeGenerator/static/js/runtime-main.f778b986.js",
@@ -10,13 +10,13 @@
     "static/js/3.eccaf7f0.chunk.js": "/RecipeGenerator/static/js/3.eccaf7f0.chunk.js",
     "static/js/3.eccaf7f0.chunk.js.map": "/RecipeGenerator/static/js/3.eccaf7f0.chunk.js.map",
     "index.html": "/RecipeGenerator/index.html",
-    "static/css/main.5fb78214.chunk.css.map": "/RecipeGenerator/static/css/main.5fb78214.chunk.css.map",
+    "static/css/main.dc3b7ac2.chunk.css.map": "/RecipeGenerator/static/css/main.dc3b7ac2.chunk.css.map",
     "static/js/2.71848647.chunk.js.LICENSE.txt": "/RecipeGenerator/static/js/2.71848647.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f778b986.js",
     "static/js/2.71848647.chunk.js",
-    "static/css/main.5fb78214.chunk.css",
+    "static/css/main.dc3b7ac2.chunk.css",
     "static/js/main.1b0ce493.chunk.js"
   ]
 }
