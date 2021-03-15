@@ -16,7 +16,7 @@ function App() {
     }, []);
 
     window.onload = function () {
-        document.getElementById("nextButton").style.display = "none";
+        document.getElementById("buttonS").style.display = "none";
     };
 
     function InitialGeneratedRecipe() {
@@ -26,7 +26,7 @@ function App() {
         document.getElementById("RecipeLink").innerHTML = "<a href='" + RandomRecipe.Link + "' target='_blank';>Recipe Link</a>";
         document.getElementById("RecipeImage").innerHTML = "<img src='" + RandomRecipe.Image + "' class='recipeImage'/>";
         document.getElementById("BigButton").style.display = "none";
-        document.getElementById("nextButton").style.display = "flex";
+        document.getElementById("buttonS").style.display = "flex";
     }
 
     function GenerateRecipe() {
@@ -39,23 +39,17 @@ function App() {
 
     return (
         <div className="container">
-            <div className="header">
-                <h1 className="title">Random Recipe Generator</h1>
-            </div>
-            <div className="main">
-                <FadeIn>
-                    <div onClick={InitialGeneratedRecipe} className="buttonBig" id="BigButton">
-                        <h2>Click Here</h2>
-                    </div>
-                </FadeIn>
-                <h3 id="RecipeName" className="recipeName"></h3>
-                <p id="RecipeLink" className="recipeLink"></p>
-                <div id="RecipeImage"></div>
-            </div>
-            <div className="footer">
-                <div id="nextButton" onClick={GenerateRecipe} className="buttonSmall">
-                    <h3>Next</h3>
+            <h1 className="title">Random Recipe Generator</h1>
+            <FadeIn transitionDuration="1000">
+                <div onClick={InitialGeneratedRecipe} className="buttonBig" id="BigButton">
+                    <h2 className="noselect">Click Here</h2>
                 </div>
+            </FadeIn>
+            <h3 id="RecipeName" className="recipeName"></h3>
+            <p id="RecipeLink" className="recipeLink"></p>
+            <div id="RecipeImage"></div>
+            <div id="buttonS" onClick={GenerateRecipe} className="buttonSmall">
+                <h3 className="noselect">Next</h3>
             </div>
         </div>
     );
